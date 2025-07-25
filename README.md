@@ -74,4 +74,4 @@ Tool	                Purpose
 
 💼 LinkedIn: Salar Mastoi
 
-<p align="center"><i>Made with ❤️ to help students discover their dream careers.</i></p> ```
+<p align="center"><i>Made with ❤️ to help students discover their dream careers.</i></p>
