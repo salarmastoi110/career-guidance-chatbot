@@ -17,13 +17,13 @@ An intelligent chatbot that helps students make smart career decisions based on 
 ---
 
 career_chatbot_project/
-├── app.py
-├── train_model.py
-├── career_guidance_dataset.csv
-├── intent_model.pkl
-├── vectorizer.pkl
-├── requirements.txt
-└── README.md  ✅
+├── app.py # Streamlit frontend interface
+├── train_model.py # ML training script
+├── career_guidance_dataset.csv # Dataset of career guidance Q&A
+├── intent_model.pkl # Trained ML model
+├── vectorizer.pkl # Saved TF-IDF vectorizer
+├── requirements.txt # Project dependencies
+└── README.md # Documentation
 
 
 ## 🔧 Setup Instructions
