@@ -1,20 +1,30 @@
-<h1 align="center">🎯 Career Chatbot - AI Career Guidance System</h1>
+<h1 align="center">🎯 Career Chatbot – AI Career Guidance System</h1>
 
 <p align="center">
-An intelligent chatbot that helps students make smart career decisions based on their interests, skills, and preferences – all powered by <strong>Machine Learning</strong> & <strong>Streamlit</strong>.
+💬 An intelligent chatbot that helps students make smart career decisions based on their interests, skills, and preferences – powered by <strong>Machine Learning</strong> & <strong>Streamlit</strong>.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python">
+  <img src="https://img.shields.io/badge/Streamlit-Framework-red?logo=streamlit">
+  <img src="https://img.shields.io/badge/Machine%20Learning-TF--IDF%20%2B%20Classifier-brightgreen?logo=scikit-learn">
+  <img src="https://img.shields.io/badge/Status-Completed-success">
 </p>
 
 ---
 
 ## 🚀 Key Features
-- 🤖 Predicts suitable careers based on user input
-- 📄 Trained on a CSV dataset of career intents
-- 🧠 Uses TF-IDF vectorizer and ML classifier
-- 💬 Interactive and clean chatbot interface (Streamlit)
-- 💾 Model and vectorizer saved for quick reuse
-- 📊 Easy to extend with more career data
+
+- 🤖 Predicts suitable careers based on user questions  
+- 📄 Trained on a career guidance Q&A CSV dataset  
+- 🧠 Uses TF-IDF Vectorizer + Logistic Regression  
+- 🎨 Clean and responsive UI built with Streamlit  
+- 💾 Model and vectorizer saved for reuse  
+- ➕ Easily extendable with new career data  
 
 ---
+
+## 📂 Project Structure
 
 career_chatbot_project/
 ├── app.py # Streamlit frontend interface
@@ -25,47 +35,43 @@ career_chatbot_project/
 ├── requirements.txt # Project dependencies
 └── README.md # Documentation
 
+---
 
-## 🔧 Setup Instructions
+## 🛠️ Setup Instructions
 
-### ✅ 1. Clone the Project
+### ✅ 1. Clone the Repository
 
 ```bash
 git clone https://github.com/salarmastoi110/career_chatbot_project
-
 cd career_chatbot_project
-
 ✅ 2. Create & Activate Virtual Environment
 python -m venv venv
-venv\Scripts\activate  # For Windows
-
+venv\Scripts\activate  # On Windows
 ✅ 3. Install Requirements
 pip install -r requirements.txt
-
-▶️ Run the Career Chatbot
+▶️ Run the Chatbot
 streamlit run app.py
+It will open a web app in your browser where you can ask questions like:
 
-It will launch a web UI in your browser where you can enter career-related questions like:
-
-What should I become if I love coding?
-I enjoy designing – what career suits me?
-Which field has a good future after FSC?
-
+💡 "What should I become if I love coding?"
+💡 "I enjoy designing – what career suits me?"
+💡 "Which field has a good future after FSC?"
 
 💡 Tech Stack
-Tool	Purpose
-Python 3.9+	Core Programming Language
-Streamlit	Web UI
-scikit-learn	ML Modeling (TF-IDF + Classifier)
-Pandas	Data handling (CSV)
-Pickle	Save ML model/vectorizer
+Tool	                Purpose
+🐍 Python 3.9+	      Core Programming Language
+🌐 Streamlit	        Web App Interface
+🤖 scikit-learn	Machine Learning (TF-IDF + Classifier)
+📊 Pandas	Data handling (CSV)
+📦 Pickle	Model & Vectorizer Saving
 
-🌐 Demo Screenshot
-<p align="center"> <img src="Demo.PNG" alt="Career Chatbot Screenshot"> </p>
+🌟 Demo Screenshot
+<p align="center"> <img src="Demo.PNG" alt="Career Chatbot Screenshot" width="80%"> </p>
+🙋 Contact
+📧 Email: salarhussainmastoi@gmail.com
 
+🔗 GitHub: @salarmastoi110
 
-📬 Contact  Salar Mastoi
-📧 salarhussainmastoi@gmail.com
-🔗 GitHub | LinkedIn
+💼 LinkedIn: Salar Mastoi
 
-<p align="center"><i>Made with 💡 to help students discover their dream careers.</i></p> ```
+<p align="center"><i>Made with ❤️ to help students discover their dream careers.</i></p> ```
