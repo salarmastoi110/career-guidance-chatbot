@@ -35,20 +35,28 @@ career_chatbot_project/
 ├── requirements.txt # Project dependencies
 └── README.md # Documentation
 
+
+
 ---
 
 ## 🛠️ Setup Instructions
 
 ### ✅ 1. Clone the Repository
 
-```bash
 git clone https://github.com/salarmastoi110/career_chatbot_project
 cd career_chatbot_project
+
+
+
 ✅ 2. Create & Activate Virtual Environment
 python -m venv venv
 venv\Scripts\activate  # On Windows
+
+
 ✅ 3. Install Requirements
 pip install -r requirements.txt
+
+
 ▶️ Run the Chatbot
 streamlit run app.py
 It will open a web app in your browser where you can ask questions like:
@@ -57,16 +65,10 @@ It will open a web app in your browser where you can ask questions like:
 💡 "I enjoy designing – what career suits me?"
 💡 "Which field has a good future after FSC?"
 
-💡 Tech Stack
-Tool	                Purpose
-🐍 Python 3.9+	      Core Programming Language
-🌐 Streamlit	        Web App Interface
-🤖 scikit-learn	Machine Learning (TF-IDF + Classifier)
-📊 Pandas	Data handling (CSV)
-📦 Pickle	Model & Vectorizer Saving
 
 🌟 Demo Screenshot
 <p align="center"> <img src="Demo.PNG" alt="Career Chatbot Screenshot" width="80%"> </p>
+
 🙋 Contact
 📧 Email: salarhussainmastoi@gmail.com
 
