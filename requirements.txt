@@ -1,0 +1,6 @@
+Tool	                Purpose
+Python 3.9+	            Core Programming Language
+Streamlit	            Web UI
+scikit-learn	        ML Modeling (TF-IDF + Classifier)
+Pandas	                Data handling (CSV)
+Pickle	                Save ML model/vectorizer
